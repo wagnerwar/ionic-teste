@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header color="twitter">
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -12,14 +12,20 @@
 
   <h3>Welcome to your first Ionic app!</h3>
 
-  <p>
+  <p text-left>
     This starter project is our way of helping you get a functional app running in record time.
   </p>
-  <p>
+  <p text-right>
     Follow along on the tutorial section of the Ionic docs!
   </p>
+
   <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
+    <strong>Que dia é hoje?</strong>
+    <ion-datetime displayFormat="MMM DD YYYY"></ion-datetime>
+  </p>
+
+  <p>
+    <button ion-button color="twitter" menuToggle round>Toggle Menu</button>
   </p>
 
 </ion-content>
